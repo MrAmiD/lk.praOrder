@@ -1,0 +1,81 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.about-proj
+		margin-bottom: 30px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.content .h2, .content h2
+		font-size: 40px
+	.info-project
+		.contact-user
+			margin-bottom: 25px
+			.accounter-ava
+				background-size: contain!important
+				background-size: contain!important
+				background-position-x: left!important
+				border-radius: 0
+	.info-project .about-proj button:nth-of-type(2)
+		margin-left: 0
+		display: block
+		margin-top: 10px
+	table.table-responsive:not(.info-proj)
+		border: 0
+		caption
+			font-size: 1.3em
+		thead
+			border: none
+			clip: rect(0 0 0 0)
+			height: 1px
+			margin: -1px
+			overflow: hidden
+			padding: 0
+			position: absolute
+			width: 1px
+		tr
+			border-bottom: 3px solid #ddd!important
+			display: block
+			margin-bottom: .625em
+		th
+			border-bottom: 1px solid #ddd
+			display: block
+			font-size: .8em
+			text-align: right
+			&:before
+				content: attr(data-label)
+				float: left
+				font-weight: bold
+				text-transform: uppercase
+				line-height: 29px
+			&:last-child
+				border-bottom: 0
+			&:nth-child(odd)
+				background: #f7f7f7!important
+		tbody tr th:first-child
+			text-align: right
+			padding-left: 10px
+			background: #cecece!important
+		.color-item
+			width: 50%
+			line-height: 29px
+			display: inline-block
+			text-align: center
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+

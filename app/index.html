@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Отчет</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; }</style>
+
+</head>
+
+<body>
+
+<nav id="my-menu">
+	<ul>
+		<li><a href="http://api.praweb.ru/assets/report/#info-proj">Информация о проекте</a></li>
+		<li><a href="http://api.praweb.ru/assets/report/#position-m">Позиции за месяц по поисковой системе</a>
+			<ul>
+				<li><a href="http://api.praweb.ru/assets/report/#position-m-y">
+					Позиции за месяц Яндекс.Пермь
+				</a></li>
+				<li><a href="http://api.praweb.ru/assets/report/#position-m-g">
+					Позиции за месяц Google.Пермь
+				</a></li>
+			</ul>
+		</li>
+		<li><a href="http://api.praweb.ru/assets/report/#position-t">Сводка по позициям за месяц</a></li>
+		<li><a href="http://api.praweb.ru/assets/report/#position-coleb">График колебания позиций</a></li>
+		<li><a href="http://api.praweb.ru/assets/report/#graph">Графики переходов за последние 3 календарных месяца</a>
+			<ul>
+				<li><a href="http://api.praweb.ru/assets/report/#graph-pos-t">
+					Сводная таблица
+				</a></li>
+				<li><a href="http://api.praweb.ru/assets/report/#graph-pos-f">
+					Поисковые системы
+				</a></li>
+				<li><a href="http://api.praweb.ru/assets/report/#graph-pos-l">
+					Переходы по ссылкам
+				</a></li>
+				<li><a href="http://api.praweb.ru/assets/report/#graph-pos-s">
+					Прямые заходы
+				</a></li>
+				<li><a href="#graph-pos-d">
+					Реклама
+				</a></li>
+			</ul>
+
+		</li>
+		<li><a href="http://api.praweb.ru/assets/report/#work-done">Проведенные работы</a></li>
+		<li><a href="http://api.praweb.ru/assets/report/#feedback-txt">Предложения и рекомендации</a></li>
+	</ul>
+</nav>
+
+<div id="my-header">
+	<!--<div class="container">-->
+	<!--<div class="row">-->
+	<!--<div class="col-xs-12 content">-->
+	<!--<h1 class="h1">-->
+	<!--Отчет за июль, компании «Стоматология Алтей»-->
+	<!--</h1>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+</div>
+
+<div id="my-content">
+	<section class="static-elements">
+		<a href="javascript:" id="return-to-top">
+			<i class="fa fa-chevron-up" aria-hidden="true"></i>
+		</a>
+		<a href="#my-menu" class="hamburger hamburger--collapse" type="button" id="menu-btn">
+			  <span class="hamburger-box">
+				 <span class="hamburger-inner"></span>
+			  </span>
+		</a>
+
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_four"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_one"></div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="content info-project" id="info-proj">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="h2 menu-item" cont="1">Информации о проекте</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6 ">
+					<div class="about-proj">
+						<h2 class="h3">Описание</h2>
+						<table class="info-proj">
+							<tbody>
+							<tr>
+								<td><span class="name-bg"> Проект: </span></td>
+								<td><span>«Стоматология Алтей»</span> <br></td>
+							</tr>
+							<tr>
+								<td><span class="name-bg"> Адрес сайта: </span></td>
+								<td><span><a target="_blank" href="https://alteident.ru">https://alteident.ru</a></span></td>
+							</tr>
+							<tr>
+								<td><span class="name-bg"> Отчетный период: </span></td>
+								<td><span>Июль</span></td>
+							</tr>
+							<tr>
+								<td> </td>
+								<td> </td>
+							</tr>
+							</tbody>
+						</table>
+						<button class="btn-accent"> Распечатать </button>
+						<button> Отправить на почту </button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 contact-user">
+					<div class="accounter-ava" style="background: url('img/ava.png')">
+
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 contact-user">
+					<h2 class="h3">Сергей Солохин</h2>
+					<h5 class="h5">Chief Financial Officer</h5>
+					<div class="contacts-main">
+						<h5 class="р5">Контактные данные</h5>
+						<a target="_blank" href="mailto: solokhin@praweb.ru">
+							<i class="fa fa-envelope" aria-hidden="true"></i> solokhin@praweb.ru
+						</a>
+						<a href="tel:+79223582211">
+							<i class="fa fa-phone-square" style="font-size: 18px;" aria-hidden="true"></i> +7 (922) 358-22-11
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="content position-city" id="position-m">
+		<div class="container">
+			<!--<div class="row">-->
+			<!--<div class="col-xs-10 col-md-10">-->
+			<!--<h1 class="h1">Позиции за месяц</h1>-->
+			<!--</div>-->
+			<!--</div>-->
+			<div class="row" id="position-m-y">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="2">
+						Позиции за месяц <span class="yandex-logo">Яндекс</span>.Пермь
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block2">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+			</div>
+			<div class="row" id="block2">
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block green">
+
+					</div>
+					<span class="color-discr">до 10 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block yel">
+
+					</div>
+					<span class="color-discr">до 20 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block orange">
+
+					</div>
+					<span class="color-discr">до 30 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-4 col-md-3">
+					<div class="color-block red">
+
+					</div>
+					<span class="color-discr">более 31 позиции</span>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive table-claster">
+						<thead>
+							<tr>
+								<th scope="col" class="">
+									Кластер/Фраза
+								</th>
+								<th scope="col">
+									Позиции сайта в поисковой системе Yandex на 01.12.2017
+								</th>
+								<th scope="col">
+									Позиции сайта в поисковой системе Yandex на 28.12.2017
+								</th>
+								<th scope="col">
+									Динамика изменений позиций сайта в системе Yandex
+								</th>
+							</tr>
+						</thead>
+						<tbody class="klaster-h">
+							<tr class="trPosition">
+								<th data-label="Кластер/Фраза">
+									<div class="btn-c-p">
+										<button class="btn-plus active" data-sid="#tbody" ><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" style="display: none;" aria-hidden="true"></i></button>
+										<span class="color-item">Заказать такси</span>
+									</div>
+								</th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">15,79%</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">26,32%</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">10,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+						<tbody class="claster-cont"  id="tbody">
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item red-fa"><span class="p-txt">-10,53%</span> <i class="fa fa-chevron-down" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">56</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">34</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">21,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item ">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item  ">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">102,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+
+						<tbody class="klaster-h">
+							<tr class="trPosition">
+								<th data-label="Кластер/Фраза">
+									<div class="btn-c-p">
+										<button class="btn-plus active" data-sid="#tbody2" ><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" style="display: none;" aria-hidden="true"></i></button>
+										<span class="color-item">Заказать такси 2</span>
+									</div>
+								</th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">15,79%</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">26,32%</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item red-fa"><span class="p-txt">-14,53%</span> <i class="fa fa-chevron-down" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+						<tbody  class="claster-cont" id="tbody2">
+							<tr class="trPosition"  >
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item red-fa"><span class="p-txt">14,53%</span><i class="fa fa-chevron-down" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">56</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">34</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">13,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item ">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item  ">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">130,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+
+						<tbody class="klaster-h">
+							<tr class="trPosition">
+								<th data-label="Кластер/Фраза">
+									<div class="btn-c-p">
+										<button class="btn-plus active" data-sid="#tbody3" ><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" style="display: none;" aria-hidden="true"></i></button>
+										<span class="color-item">Заказать такси 3</span>
+									</div>
+								</th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">15,79%</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">26,32%</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item red-fa"><span class="p-txt">17,53%</span> <i class="fa fa-chevron-down" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+						<tbody style="background: green;" class="claster-cont" id="tbody3">
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item red-fa"><span class="p-txt">32,53%</span> <i class="fa fa-chevron-down" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item">56</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item">34</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item green-fa"><span class="p-txt">145,53%</span> <i class="fa fa-chevron-up" aria-hidden="true"></i></span></th>
+							</tr>
+							<tr class="trPosition">
+								<th class="klaster" data-label="Кластер/Фраза"><span class="color-item">заказать такси в нижневартовске дешево</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 01.12.2017"><span class="color-item ">21</span></th>
+								<th data-label="Позиции сайта в поисковой системе Yandex на 28.12.2017"><span class="color-item  ">2</span></th>
+								<th data-label="Динамика изменений позиций сайта в системе Yandex"><span class="color-item yel-fa"><span class="p-txt">132,53%</span> <i class="fa fa-minus" aria-hidden="true"></i></span></th>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row" id="position-m-g">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="3">
+						Позиции за месяц <span class="google-logo">G</span><span class="google-logo">o</span><span class="google-logo">o</span><span class="google-logo">g</span><span class="google-logo">l</span><span class="google-logo">e</span>.Пермь
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block3">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+			</div>
+			<div class="row" id="block3">
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block green">
+
+					</div>
+					<span class="color-discr">до 10 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block yel">
+
+					</div>
+					<span class="color-discr">до 20 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-3 col-md-3">
+					<div class="color-block orange">
+
+					</div>
+					<span class="color-discr">до 30 позиций</span>
+				</div>
+				<div class="color-block-cont col-xs-12 col-sm-4 col-md-3">
+					<div class="color-block red">
+
+					</div>
+					<span class="color-discr">более 31 позиции</span>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Запросы
+							</th>
+							<th scope="col">
+								2017-08-17
+							</th>
+							<th scope="col">
+								2017-08-23
+							</th>
+							<th scope="col">
+								2017-08-28
+							</th>
+							<th scope="col">
+								2017-08-31
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">абразивная полировка кузова</span></th>
+							<th data-label="2017-08-17"><span class="color-item red">58</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-28"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-31"><span class="color-item red">75</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">вклейка стекла на авто</span></th>
+							<th data-label="2017-08-17"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">24</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">8</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">7</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">6</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">7</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">29</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">замена автостекла пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">59</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена автостекол</span></th>
+							<th  data-label="2017-08-17"><span class="color-item yel">19</span></th>
+							<th  data-label="2017-08-23"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">25</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена лобового стекла</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-23"><span class="color-item yel">19</span></th>
+							<th data-label="2017-08-28"><span class="color-item yel">18</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">абразивная полировка кузова</span></th>
+							<th data-label="2017-08-17"><span class="color-item red">58</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-28"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-31"><span class="color-item red">75</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">вклейка стекла на авто</span></th>
+							<th data-label="2017-08-17"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">24</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">8</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">7</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">6</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">7</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">29</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">замена автостекла пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">59</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена автостекол</span></th>
+							<th  data-label="2017-08-17"><span class="color-item yel">19</span></th>
+							<th  data-label="2017-08-23"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">25</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена лобового стекла</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-23"><span class="color-item yel">19</span></th>
+							<th data-label="2017-08-28"><span class="color-item yel">18</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">абразивная полировка кузова</span></th>
+							<th data-label="2017-08-17"><span class="color-item red">58</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-28"><span class="color-item red">74</span></th>
+							<th data-label="2017-08-31"><span class="color-item red">75</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">вклейка стекла на авто</span></th>
+							<th data-label="2017-08-17"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">24</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр</span></th>
+							<th data-label="2017-08-17"><span class="color-item green">8</span></th>
+							<th data-label="2017-08-23"><span class="color-item green">7</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">6</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">7</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">детейлинг центр пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">29</span></th>
+							<th data-label="2017-08-23"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th data-label="Запросы"><span class="color-item">замена автостекла пермь</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-23"><span class="color-item red">59</span></th>
+							<th data-label="2017-08-28"><span class="color-item green">0</span></th>
+							<th data-label="2017-08-31"><span class="color-item green">0</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена автостекол</span></th>
+							<th  data-label="2017-08-17"><span class="color-item yel">19</span></th>
+							<th  data-label="2017-08-23"><span class="color-item yel">17</span></th>
+							<th data-label="2017-08-28"><span class="color-item orange">21</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">25</span></th>
+						</tr>
+						<tr class="trPosition">
+							<th  data-label="Запросы"><span class="color-item">замена лобового стекла</span></th>
+							<th data-label="2017-08-17"><span class="color-item orange">20</span></th>
+							<th data-label="2017-08-23"><span class="color-item yel">19</span></th>
+							<th data-label="2017-08-28"><span class="color-item yel">18</span></th>
+							<th data-label="2017-08-31"><span class="color-item orange">22</span></th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="row" id="position-t">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="4">
+						Сводка по позициям за месяц
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#chart-cont">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+			</div>
+			<div class="row chart-cont" id="chart-cont">
+				<div class="col-xs-12 col-md-6" >
+					<h2 class="h2">
+						<span class="google-logo">G</span><span class="google-logo">o</span><span class="google-logo">o</span><span class="google-logo">g</span><span class="google-logo">l</span><span class="google-logo">e</span>
+						.Пермь
+					</h2>
+					<canvas class="chart" id="myChart" ></canvas>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<h2 class="h2">
+						<span class="yandex-logo">Яндекс</span>.Пермь
+					</h2>
+					<canvas class="chart" id="myChart2"></canvas>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<h2 class="h2">
+						<span class="google-logo">G</span><span class="google-logo">o</span><span class="google-logo">o</span><span class="google-logo">g</span><span class="google-logo">l</span><span class="google-logo">e</span>
+						.Москва
+					</h2>
+					<canvas class="chart" id="myChart3" ></canvas>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<h2 class="h2">
+						<span class="yandex-logo">Яндекс</span>.Москва
+					</h2>
+					<canvas class="chart" id="myChart4"></canvas>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="graph-coleb content" id="position-coleb">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="5">
+						График колебаний позиций за месяц
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block5">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+			</div>
+			<div class="row" id="block5">
+				<div class="col-xs-12">
+					<canvas id="graphColeb" class="graph"></canvas>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="content graph-direct">
+		<div class="container">
+			<div class="row" id="graph">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="6">
+						Графики переходов из ПС за последние 3 календарных месяца
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block6">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="block6">
+			<div class="row">
+				<div class="col-xs-12" id="#graph-pos-t">
+					<h3 class="h3">Сводная таблица</h3>
+				</div>
+				<div class="col-xs-12">
+					<canvas id="graphDirect1" class="graph"></canvas>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Месяц/год
+							</th>
+							<th scope="col">
+								Визиты
+							</th>
+							<th scope="col">
+								Посетители
+							</th>
+							<th scope="col">
+								Отказы
+							</th>
+							<th scope="col">
+								Глубина просмотра
+							</th>
+							<th scope="col">
+								Время на сайте
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th data-label="Месяц/год">июнь 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра" >6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">июль 2017</th>
+							<th data-label="Визиты">800</th>
+							<th data-label="Посетители">200</th>
+							<th data-label="Отказы">25%</th>
+							<th data-label="Глубина просмотра">2.5</th>
+							<th data-label="Время на сайте">3:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">август 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра">6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row" id="graph-pos-f">
+				<div class="col-xs-12">
+					<h3 class="h3">Поисковые системы</h3>
+				</div>
+				<div class="col-xs-12">
+					<canvas id="graphDirect2" class="graph"></canvas>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Месяц/год
+							</th>
+							<th scope="col">
+								Визиты
+							</th>
+							<th scope="col">
+								Посетители
+							</th>
+							<th scope="col">
+								Отказы
+							</th>
+							<th scope="col">
+								Глубина просмотра
+							</th>
+							<th scope="col">
+								Время на сайте
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th data-label="Месяц/год">июнь 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра" >6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">июль 2017</th>
+							<th data-label="Визиты">800</th>
+							<th data-label="Посетители">200</th>
+							<th data-label="Отказы">25%</th>
+							<th data-label="Глубина просмотра">2.5</th>
+							<th data-label="Время на сайте">3:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">август 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра">6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="graph-pos-l">
+					<h3 class="h3">Переходы по ссылкам</h3>
+				</div>
+				<div class="col-xs-12">
+					<canvas id="graphDirect3" class="graph"></canvas>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Месяц/год
+							</th>
+							<th scope="col">
+								Визиты
+							</th>
+							<th scope="col">
+								Посетители
+							</th>
+							<th scope="col">
+								Отказы
+							</th>
+							<th scope="col">
+								Глубина просмотра
+							</th>
+							<th scope="col">
+								Время на сайте
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th data-label="Месяц/год">июнь 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра" >6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">июль 2017</th>
+							<th data-label="Визиты">800</th>
+							<th data-label="Посетители">200</th>
+							<th data-label="Отказы">25%</th>
+							<th data-label="Глубина просмотра">2.5</th>
+							<th data-label="Время на сайте">3:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">август 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра">6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="graph-pos-s">
+					<h3 class="h3">Прямые заходы</h3>
+				</div>
+				<div class="col-xs-12">
+					<canvas id="graphDirect4" class="graph"></canvas>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Месяц/год
+							</th>
+							<th scope="col">
+								Визиты
+							</th>
+							<th scope="col">
+								Посетители
+							</th>
+							<th scope="col">
+								Отказы
+							</th>
+							<th scope="col">
+								Глубина просмотра
+							</th>
+							<th scope="col">
+								Время на сайте
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th data-label="Месяц/год">июнь 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра" >6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">июль 2017</th>
+							<th data-label="Визиты">800</th>
+							<th data-label="Посетители">200</th>
+							<th data-label="Отказы">25%</th>
+							<th data-label="Глубина просмотра">2.5</th>
+							<th data-label="Время на сайте">3:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">август 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра">6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="graph-pos-d">
+					<!--Если есть-->
+					<h3 class="h3">Реклама</h3>
+				</div>
+				<div class="col-xs-12">
+					<canvas id="graphDirect5" class="graph"></canvas>
+				</div>
+				<div class="col-xs-12">
+					<table cellspacing="0" width="100%" class="table-responsive">
+						<thead>
+						<tr>
+							<th scope="col">
+								Месяц/год
+							</th>
+							<th scope="col">
+								Визиты
+							</th>
+							<th scope="col">
+								Посетители
+							</th>
+							<th scope="col">
+								Отказы
+							</th>
+							<th scope="col">
+								Глубина просмотра
+							</th>
+							<th scope="col">
+								Время на сайте
+							</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th data-label="Месяц/год">июнь 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра" >6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">июль 2017</th>
+							<th data-label="Визиты">800</th>
+							<th data-label="Посетители">200</th>
+							<th data-label="Отказы">25%</th>
+							<th data-label="Глубина просмотра">2.5</th>
+							<th data-label="Время на сайте">3:53</th>
+						</tr>
+						<tr>
+							<th data-label="Месяц/год">август 2017</th>
+							<th data-label="Визиты">1500</th>
+							<th data-label="Посетители">1000</th>
+							<th data-label="Отказы">12%</th>
+							<th data-label="Глубина просмотра">6.5</th>
+							<th data-label="Время на сайте">4:53</th>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="feedback content" id="work-done">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="7">
+						Проведенные работы
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block7">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+				<div class="col-xs-12 text-acounter" id="block7">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur eos molestiae obcaecati quod similique voluptas. Ab, corporis ducimus ea eligendi, eos ipsa mollitia nam odio porro quidem, reiciendis rerum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem doloremque doloribus error est excepturi fuga ipsum maxime molestiae neque odio officia omnis quaerat, repellat sapiente sunt, veritatis voluptatem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus error est explicabo harum, id non odio perferendis sed. Alias blanditiis eum illum laborum minima molestias nobis saepe sit ullam!</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, corporis ducimus hic maxime praesentium quam quas quis sequi vel! Distinctio dolore excepturi laborum magni pariatur quis sit suscipit, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus odit quam qui? Aperiam aut autem commodi debitis dolores inventore iusto molestias nisi odit officiis perferendis quasi, saepe veniam, voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aliquam architecto aspernatur commodi consectetur cumque deserunt ducimus esse facere magni nihil nostrum odio optio pariatur placeat quam sed sit voluptatum.</p>
+				</div>
+			</div>
+			<div class="row" id="feedback-txt">
+				<div class="col-xs-10">
+					<h2 class="h2 menu-item" cont="8">
+						Предложения и рекомендации
+					</h2>
+				</div>
+				<div class="col-xs-2">
+					<h2 class="h2 btn-down">
+						<a href="javascript:void(0)" data-slide="#block8">
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+						</a>
+					</h2>
+				</div>
+				<div class="col-xs-12 text-acounter" id="block8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur eos molestiae obcaecati quod similique voluptas. Ab, corporis ducimus ea eligendi, eos ipsa mollitia nam odio porro quidem, reiciendis rerum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut autem doloremque doloribus error est excepturi fuga ipsum maxime molestiae neque odio officia omnis quaerat, repellat sapiente sunt, veritatis voluptatem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus error est explicabo harum, id non odio perferendis sed. Alias blanditiis eum illum laborum minima molestias nobis saepe sit ullam!</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, corporis ducimus hic maxime praesentium quam quas quis sequi vel! Distinctio dolore excepturi laborum magni pariatur quis sit suscipit, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus odit quam qui? Aperiam aut autem commodi debitis dolores inventore iusto molestias nisi odit officiis perferendis quasi, saepe veniam, voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aliquam architecto aspernatur commodi consectetur cumque deserunt ducimus esse facere magni nihil nostrum odio optio pariatur placeat quam sed sit voluptatum.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div id="my-footer">
+	<footer>
+		<div class="container-fluid content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>Июль 2017</p>
+					</div>
+					<div class="col-xs-6 logo-praweb" style="text-align: right">
+						<a href="https://praweb.ru/" target="_blank">
+							<img src="img/copyright.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+
+<!--Charts-->
+<script>
+    //Для последовательной инициализации
+    //initById('brands', '90%');
+    //initById('steps', '70%');
+    var waypoint;
+    function myChartPie(dataArr, selector) {
+        var ctx = document.getElementById(selector).getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'pie',
+
+            // The data for our dataset
+            data: {
+                datasets: [{
+                    data: dataArr,
+                    backgroundColor: ["#16A765", "#ffcc00", "#ff9b00", "#c9302c"],
+                    label: 'Dataset 1'
+                }],
+                labels: [
+                    "Топ 10",
+                    "Топ 20",
+                    "Топ 30",
+                    "Топ 30+"
+                ]
+            },
+            options: {
+                responsive: true,
+                tooltips: {
+                    callbacks: {
+                        label: function(tooltipItem, data) {
+                            var allData = data.datasets[tooltipItem.datasetIndex].data;
+                            var tooltipLabel = data.labels[tooltipItem.index];
+                            var tooltipData = allData[tooltipItem.index];
+                            var total = 0;
+                            for (var i in allData) {
+                                total += allData[i];
+                            }
+                            var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                            return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
+                        }
+                    }
+                }
+
+            }
+        });
+    }
+    function myChartLine(dataObj, selector) {
+        console.log('selector = ', selector);
+        var ctx = document.getElementById(selector).getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
+            // The data for our dataset
+            data: dataObj,
+            options: {
+                maintainAspectRatio: false
+            }
+        });
+    }
+    function initById(selector, offset, func, dataArr, dataObj) {
+        waypoint = new Waypoint({
+            element: document.getElementById(selector),
+            handler: function() {
+                if(dataArr)
+                    setTimeout(func(dataArr, selector), 1000);
+                if(dataObj)
+                    setTimeout(func(dataObj, selector), 1000);
+                this.destroy();
+            },
+            offset: offset
+        });
+    }
+
+    function initCharts(){
+        initById('myChart', '90%', myChartPie, [150, 20, 15, 5]);
+        initById('myChart2', '50%', myChartPie, [150, 20, 15, 5]);
+        initById('myChart3', '90%', myChartPie, [200, 300, 50, 10]);
+        initById('myChart4', '50%', myChartPie, [32, 123, 2, 78]);
+
+        var dataObj = {
+            datasets: [{
+                label: "Яндекс.Пермь",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Google.Пермь",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Google.Москва",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120]
+                },
+                {
+                    label: "Яндекс.Москва",
+                    fill: false,
+                    backgroundColor: "#ffcc00",
+                    borderColor: "#ffcc00",
+                    data: [100, 12, 45, 56, 56, 156, 117]
+                }],
+            labels: ["1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля"]
+        };
+        initById('graphColeb', '50%', myChartLine, null, dataObj);
+
+        dataObj = {
+            datasets: [{
+                label: "Визиты",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Просмотры",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Посетители",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120]
+                }],
+            labels: ["1 июня", "5 июня", "10 июня", "15 июня", "20 июня", "25 июня", "30 июня", "1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля", "1 август", "5 август", "10 август", "15 август", "20 август", "25 август", "30 август"]
+        };
+        initById('graphDirect1', '50%', myChartLine, null, dataObj);
+        dataObj = {
+            datasets: [{
+                label: "Визиты",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Просмотры",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Посетители",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120]
+                }],
+            labels: ["1 июня", "5 июня", "10 июня", "15 июня", "20 июня", "25 июня", "30 июня", "1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля", "1 август", "5 август", "10 август", "15 август", "20 август", "25 август", "30 август"]
+        };
+        initById('graphDirect2', '50%', myChartLine, null, dataObj);
+
+        dataObj = {
+            datasets: [{
+                label: "Визиты",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Просмотры",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Посетители",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120]
+                }],
+            labels: ["1 июня", "5 июня", "10 июня", "15 июня", "20 июня", "25 июня", "30 июня", "1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля", "1 август", "5 август", "10 август", "15 август", "20 август", "25 август", "30 август"]
+        };
+        initById('graphDirect3', '50%', myChartLine, null, dataObj);
+
+        dataObj = {
+            datasets: [{
+                label: "Визиты",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Просмотры",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Посетители",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120]
+                }],
+            labels: ["1 июня", "5 июня", "10 июня", "15 июня", "20 июня", "25 июня", "30 июня", "1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля", "1 август", "5 август", "10 август", "15 август", "20 август", "25 август", "30 август"]
+        };
+        initById('graphDirect4', '50%', myChartLine, null, dataObj);
+
+        dataObj = {
+            datasets: [{
+                label: "Визиты",
+                fill: false,
+                backgroundColor: "#c9302c",
+                borderColor: "#c9302c",
+                data: [32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90, 32, 80, 2, 78, 100, 120, 90]
+            },
+                {
+                    label: "Просмотры",
+                    fill: false,
+                    backgroundColor: "#16A765",
+                    borderColor: "#16A765",
+                    data: [17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111, 17, 27, 35, 90, 60, 120, 111]
+                },
+                {
+                    label: "Посетители",
+                    fill: false,
+                    backgroundColor: "#ff9b00",
+                    borderColor: "#ff9b00",
+                    data: [10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120, 10, 20, 30, 70, 100, 20, 120]
+                }],
+            labels: ["1 июня", "5 июня", "10 июня", "15 июня", "20 июня", "25 июня", "30 июня", "1 июля", "5 июля", "10 июля", "15 июля", "20 июля", "25 июля", "30 июля", "1 август", "5 август", "10 август", "15 август", "20 август", "25 август", "30 август"]
+        };
+        initById('graphDirect5', '50%', myChartLine, null, dataObj);
+    }
+    $(document).ready(function(){
+        initCharts();
+        //
+        //preloader
+        setTimeout($("#loading").fadeOut(500), 1500);
+        //mmenu
+        $("#my-menu").mmenu({
+            "extensions": [
+                "effect-menu-slide",
+                "pagedim-black",
+                "fx-listitems-slide"
+            ],
+            "offCanvas": {
+                "position": "right"
+            },
+            "navbar": {
+                "title": "Содержание отчета"
+            }
+        });
+        var api = $("#my-menu").data( "mmenu" );
+        //   Hook into methods
+        api.bind( "open:finish", function() {
+            $(".hamburger").addClass('is-active');
+        });
+        api.bind( "close:finish", function( $panel ) {
+            $(".hamburger").removeClass('is-active');
+        });
+
+
+        $(".mm-listview li a:not(.mm-next)").click(function() {      // When arrow is clicked
+            api.close();
+        });
+    });
+
+    $(document).on( "click", ".btn-down a", function() {
+        if(!$(this).hasClass('is-active')){
+            $(this).addClass('is-active');
+            $($(this).data().slide).slideUp(500);
+
+        }
+        else{
+            $(this).removeClass('is-active');
+            $($(this).data().slide).slideDown(500);
+        }
+        Waypoint.refreshAll();//Обновляем waypoint
+
+    });
+
+    function onElementHeightChange(elm, callback){//Определяет изменение высоты элемента, использую для обновления waypoint
+        var lastHeight = elm.clientHeight, newHeight;
+        (function run(){
+            newHeight = elm.clientHeight;
+            if( lastHeight != newHeight )
+                callback();
+            lastHeight = newHeight;
+
+            if( elm.onElementHeightChangeTimer )
+                clearTimeout(elm.onElementHeightChangeTimer);
+
+            elm.onElementHeightChangeTimer = setTimeout(run, 200);
+        })();
+    }
+
+
+    onElementHeightChange(document.body, function(){
+        Waypoint.refreshAll();//Обновляем waypoint
+    });
+</script>
+<!--return top-->
+<script>
+    // ===== Scroll to Top ====
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+</script>
+
+</body>
+</html>
