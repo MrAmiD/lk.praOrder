@@ -618,5 +618,16 @@ footer
 	.trPosition
 		.color-item
 			font-size: 16px
-
+@media only screen and (max-width : 768px)
+	table.table-responsive.table-claster:not(.info-proj) .klaster-h th:first-of-type .color-item
+		width: 100%
+	.klaster
+		padding-left: 8px!important
+		display: flex
+		align-items: center
+		&:before
+			width: 50%
+			text-align: left
+	.claster-cont
+		border-bottom: 30px solid transparent!important
 @import "media" // Всегда в конце
